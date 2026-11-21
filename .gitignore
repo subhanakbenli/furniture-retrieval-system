@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Model weights and data are not distributed in this repo (see README)
+*.pt
+!service/weights/Golden.pt
+*.pth
+*.onnx
+*.npy
+*.parquet
+*.zip
+datasets/
+static/uploads/
+qdrant_storage/
+
+.DS_Store
+.vscode/
+.idea/
+
+# Benchmark data and raw outputs are not distributed
+benchmarks/data/
+benchmarks/results/
